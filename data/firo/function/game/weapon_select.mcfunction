@@ -2,6 +2,8 @@ effect give @a night_vision infinite 1 true
 execute as @a unless score @s player.team matches 4 run gamemode adventure @s
 gamemode spectator @a[scores={player.team=4}]
 scoreboard players set @s respawn.timer 0
+clear @a gold_nugget[custom_data={isCI:true}]
+scoreboard players set count cs.item.count 0
 tp @a 23 -59 26
 playsound entity.experience_orb.pickup block @a
 

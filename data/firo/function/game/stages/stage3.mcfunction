@@ -4,5 +4,5 @@ execute if score rule game.settings matches 0 run function firo:game/stages/colo
 execute if score rule game.settings matches 2 run function firo:game/stages/collect/stage3
 worldborder center -21 67
 worldborder set 60
-spreadplayers -21 67 10 8 under -38 false @a
+spreadplayers -21 67 5 8 under -38 false @a
 setworldspawn -21 -38 67

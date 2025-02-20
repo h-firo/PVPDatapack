@@ -30,7 +30,6 @@
             "to_apply": [
               "minecraft:jump_boost",
               "minecraft:resistance",
-              "minecraft:infested",
               "minecraft:strength",
               "minecraft:haste",
               "minecraft:regeneration"

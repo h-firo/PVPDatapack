@@ -7,6 +7,10 @@ execute if score count game.playerCount matches 1 run return run \
 function firo:exception {content:"You is only player lol"}
 scoreboard players set @a point 0
 scoreboard players set phase game.phase 0
+scoreboard players set red satistics.winCount 0
+scoreboard players set blue satistics.winCount 0
+scoreboard players set green satistics.winCount 0
+scoreboard players set yellow satistics.winCount 0
 #ランダムなチーム分け
 scoreboard players operation PlayerPerTeam game.settings = count game.playerCount
 execute if score maxTeamCount game.settings matches 2 run scoreboard players operation PlayerPerTeam game.settings /= 2 game.num
@@ -28,6 +32,9 @@ execute if score rule game.settings matches 1 run bossbar set area_blocks visibl
 loot give @a loot firo:start_equip
 execute as @a run function firo:game/give_food
 execute as @a run function firo:game/give_block
+#エフェクト
+effect give @a instant_health 1 10 true
+effect give @a saturation 10 255 true
 
 #装備選択場所にテレポート
 playsound block.wooden_button.click_on block @a ~ ~ ~ 1
