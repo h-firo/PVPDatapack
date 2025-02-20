@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "": {
+        "trigger": "minecraft:entity_killed_player"
+      }
+    },
+    "rewards": {
+      "function": "firo:game/respawn/death"
+    }
+  }

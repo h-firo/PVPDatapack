@@ -1,0 +1,52 @@
+{
+    "description": "超拡散",
+    "supported_items": [
+      "minecraft:crossbow",
+      "minecraft:bow"
+    ],
+    "primary_items": [
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "mainhand",
+      "offhand"
+    ],
+    "effects": {
+      "minecraft:ammo_use": [
+        {
+          "effect": {
+            "type": "minecraft:set",
+            "value": 1
+          }
+        }
+      ],
+      "minecraft:projectile_count": [
+        {
+          "effect": {
+            "type": "minecraft:set",
+            "value": 10
+          }
+        }
+      ],
+      "minecraft:projectile_spread": [
+        {
+          "effect": {
+            "type": "minecraft:set",
+            "value": 50
+          }
+        }
+      ]
+    }
+  }

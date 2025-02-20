@@ -1,0 +1,1 @@
+give @s trident[enchantments={loyalty:2}]

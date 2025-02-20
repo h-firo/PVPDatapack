@@ -1,0 +1,1 @@
+execute if score @s point matches 10.. run function firo:roll/food/purchase

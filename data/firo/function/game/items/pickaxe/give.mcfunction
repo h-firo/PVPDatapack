@@ -1,0 +1,1 @@
+give @s iron_pickaxe[can_break={predicates:[{blocks:"red_concrete"},{blocks:"blue_concrete"},{blocks:"green_concrete"},{blocks:"yellow_concrete"}]},custom_name='{"color":"gold","text":"染め上げるツルハシ"}',lore=['"colonyにあるコンクリートを破壊できる。"'],unbreakable={}] 1

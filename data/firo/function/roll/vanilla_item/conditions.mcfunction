@@ -1,0 +1,1 @@
+execute if score @s point matches 20.. run function firo:roll/vanilla_item/purchase

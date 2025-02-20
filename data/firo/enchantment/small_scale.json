@@ -1,0 +1,83 @@
+{
+    "description": "小人化",
+    "supported_items": [
+      "minecraft:netherite_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:leather_helmet"
+    ],
+    "primary_items": [
+      "minecraft:netherite_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:leather_helmet"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "head"
+    ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "attribute": "minecraft:generic.scale",
+          "id": "firo_enchantment.scale",
+          "amount": -0.4,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "id":"firo_enchantment.attack_speed",
+          "amount": 2,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "id":"firo_enchantment.speed",
+          "amount": -0.03,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "id":"firo_enchantment.attack_damage",
+          "amount": -2,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "id":"firo_enchantment.destroy_speed",
+          "amount": -0.8,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "id":"firo_enchantment.knockback_resistance",
+          "amount": -0.3,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:player.sneaking_speed",
+          "id":"firo_enchantment.speed",
+          "amount": -0.25,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:player.entity_interaction_range",
+          "id":"firo_enchantment.speed",
+          "amount": -1,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,2 @@
+execute if score block game.settings matches 1 run return run function firo:exception {"content":"Purchasing this item is prohibited by game settings."}
+$execute if score @s point matches $(point).. run function firo:block/give {type:$(type),key:$(key),num:$(point)}

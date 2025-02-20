@@ -1,0 +1,1 @@
+$damage @n[distance=1..3] 20 explosion by @a[tag=$(tag),limit=1]

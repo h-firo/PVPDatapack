@@ -1,0 +1,1 @@
+$give @s apple[food={nutrition:5,saturation:5,eat_seconds:1.2}] $(count)

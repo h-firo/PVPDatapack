@@ -1,0 +1,9 @@
+give @s enchanted_book[stored_enchantments={levels:{"firo:item_power_up":1}}]
+give @s enchanted_book[stored_enchantments={levels:{"firo:move_power_up":1}}] 1
+give @s enchanted_book[stored_enchantments={levels:{"firo:super_multishot":1}}] 1
+give @s enchanted_book[stored_enchantments={levels:{"firo:super_multishot2":1}}] 1
+give @s enchanted_book[stored_enchantments={levels:{"firo:explode_arrow":1}}] 1
+give @s enchanted_book[stored_enchantments={levels:{"firo:fire_explode_arrow":1}}] 1
+give @s enchanted_book[stored_enchantments={levels:{"firo:low_gravity":1}}] 1
+give @s enchanted_book[stored_enchantments={levels:{"firo:small_scale":1}}] 1
+give @s enchanted_book[stored_enchantments={levels:{"firo:lange_arm":1}}] 1

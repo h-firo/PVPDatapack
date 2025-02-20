@@ -1,0 +1,1 @@
+$give @s cooked_porkchop[food={nutrition:6,saturation:6,eat_seconds:1.5,effects:[{effect:{id:"minecraft:regeneration",amplifier:1,duration:100,show_particles:0b,show_icon:0b},probability:1}]}] $(count)

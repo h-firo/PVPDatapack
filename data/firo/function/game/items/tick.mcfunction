@@ -1,0 +1,1 @@
+function firo:game/items/paint_lod/tick

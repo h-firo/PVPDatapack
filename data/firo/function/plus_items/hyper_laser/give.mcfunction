@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"color":"yellow","text":"Hyper Laser"}',lore=['"右クリックでレーザーを目の前に発射する。５回まで使える。"'],custom_data={isLaser:true},custom_model_data=4,max_damage=5] 1

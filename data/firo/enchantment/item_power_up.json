@@ -1,0 +1,41 @@
+{
+    "description": "特殊アイテム強化",
+    "supported_items": [
+      "minecraft:netherite_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:leather_chestplate"
+    ],
+    "primary_items": [
+      "minecraft:netherite_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:leather_chestplate"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "chest"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "firo:items/item_power_up/tick"
+          }
+        }
+      ]
+    }
+  }

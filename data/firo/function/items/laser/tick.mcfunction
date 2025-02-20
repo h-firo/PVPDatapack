@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=laser] run function firo:items/laser/laser_tick

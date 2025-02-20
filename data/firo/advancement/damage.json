@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "": {
+        "trigger": "minecraft:entity_hurt_player"
+      }
+    },
+    "rewards": {
+      "function": "firo:rewards/damage"
+    }
+  }

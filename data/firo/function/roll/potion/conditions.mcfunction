@@ -1,0 +1,1 @@
+execute if score @s point matches 15.. run function firo:roll/potion/purchase

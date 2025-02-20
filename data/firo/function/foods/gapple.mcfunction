@@ -1,0 +1,1 @@
+$give @s golden_apple[food={nutrition:6,saturation:6,can_always_eat:true,eat_seconds:2,effects:[{effect:{id:"minecraft:resistance",amplifier:1,duration:200},probability:1},{effect:{id:"minecraft:haste",amplifier:3,duration:200},probability:1},{effect:{id:"minecraft:regeneration",amplifier:1,duration:200},probability:1}]}] $(count)

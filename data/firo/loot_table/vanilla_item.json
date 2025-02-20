@@ -1,0 +1,196 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fishing_rod",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wind_charge",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_pearl",
+            "weight": 8,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_rocket",
+            "weight": 8,
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 20
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:trident",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:channeling": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "weight": 7,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": 335
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:turtle_helmet",
+            "weight": 6,
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.water_movement_efficiency",
+                    "id": "minecraft:water_movement",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_sword",
+            "weight": 6,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:sweeping_edge": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_axe",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:item",
+            "name": "snowball",
+            "weight": 9,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "name": "crossbow",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:quick_charge": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:infinity": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_boots",
+            "weight": 4,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:frost_walker": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_chestplate",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:thorns": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:wind_burst": 1,
+                  "minecraft:density": 3
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

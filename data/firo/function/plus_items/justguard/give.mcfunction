@@ -1,0 +1,1 @@
+give @s iron_sword[max_damage=100,custom_name='{"color":"dark_aqua","text":"Guard Sword"}',lore=['"タイミングよくスニークをすることで、"','"攻撃をガードをできる。"'],fire_resistant={},custom_model_data=1,custom_data={isGuardSword:true}] 1

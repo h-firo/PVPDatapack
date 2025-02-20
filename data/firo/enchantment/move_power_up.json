@@ -1,0 +1,46 @@
+{
+    "description": "移動強化",
+    "supported_items": [
+      "minecraft:netherite_boots",
+      "minecraft:diamond_boots",
+      "minecraft:iron_boots",
+      "minecraft:leather_boots",
+      "minecraft:chainmail_boots"
+    ],
+    "primary_items": "#minecraft:boats",
+    "weight": 10,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "feet"
+    ],
+    "effects": {
+      "minecraft:location_changed": [
+        {
+          "effect": {
+            "type": "minecraft:apply_mob_effect",
+            "to_apply": [
+              "minecraft:jump_boost",
+              "minecraft:resistance",
+              "minecraft:infested",
+              "minecraft:strength",
+              "minecraft:haste",
+              "minecraft:regeneration"
+            ],
+            "min_duration": 2,
+            "max_duration": 2,
+            "min_amplifier": 1,
+            "max_amplifier": 1
+          }
+        }
+      ]
+    }
+  }

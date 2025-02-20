@@ -1,0 +1,1 @@
+$execute as @e[dx=0,dy=0,dz=0,nbt=!{UUID:$(Owner)},type=!item] run damage @s 9 magic by @a[nbt={UUID:$(Owner)},limit=1]

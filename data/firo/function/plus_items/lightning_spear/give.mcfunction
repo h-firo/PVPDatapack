@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"color":"light_purple","text":"Lightning Spear"}',lore=['"最も近くにいるプレイヤーに"','"一定間隔で雷を落とす。"'],custom_model_data=6,custom_data={isLightning:true}] 1

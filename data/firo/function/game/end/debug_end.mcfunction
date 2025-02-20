@@ -1,0 +1,1 @@
+scoreboard players set time game.timer 60

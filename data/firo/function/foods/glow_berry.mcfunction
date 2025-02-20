@@ -1,0 +1,1 @@
+$give @s glow_berries[food={nutrition:9,saturation:9,can_always_eat:true,eat_seconds:0.6,effects:[{effect:{id:"minecraft:glowing",amplifier:1,duration:200},probability:1}]}] $(count)

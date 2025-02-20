@@ -1,0 +1,2 @@
+function firo:collect_spot/summon
+function firo:collect_spot/block_set

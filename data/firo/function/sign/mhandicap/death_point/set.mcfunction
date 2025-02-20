@@ -1,0 +1,4 @@
+function firo:sign/clear_handicap
+function firo:sign/handicap
+$scoreboard players set @e[x=43,z=11,dx=7,dz=4,type=!item] handicap.settings.death $(point)
+tellraw @a ["",{"selector":"@e[x=43,z=11,dx=7,dz=4,type=!item]"},{"text":"\u306e"},{"text":"\u30c7\u30b9\u30dd\u30a4\u30f3\u30c8","color":"dark_red","hoverEvent":{"action":"show_text","contents":"\u30c7\u30b9\u3092\u3057\u3066\u3057\u307e\u3063\u305f\u30d7\u30ec\u30a4\u30e4\u30fc\u306e\u30dd\u30a4\u30f3\u30c8\u3092\u3053\u306e\u30dd\u30a4\u30f3\u30c8\u5206\u3060\u3051\u6e1b\u5c11\u3055\u305b\u308b\u3002"}},{"text":"\u304c"},{"score":{"name":"@e[x=43,z=11,dx=7,dz=4,type=!item]","objective":"handicap.settings.death"}},{"text":"pt\u306b\u8a2d\u5b9a\u3055\u308c\u307e\u3057\u305f"}]

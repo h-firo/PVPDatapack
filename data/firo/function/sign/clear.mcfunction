@@ -1,0 +1,1 @@
+fill 48 -59 38 44 -59 38 air destroy

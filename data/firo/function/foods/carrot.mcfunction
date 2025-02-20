@@ -1,0 +1,1 @@
+$give @s carrot[food={nutrition:2,saturation:2,eat_seconds:0.3}] $(count)

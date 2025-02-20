@@ -1,0 +1,1 @@
+function firo:game/game

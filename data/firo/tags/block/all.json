@@ -1,0 +1,35 @@
+{
+    "replace": false,
+    "values": [
+      "#minecraft:mineable/axe",
+      "#minecraft:mineable/pickaxe",
+      "#minecraft:mineable/shovel",
+      "#minecraft:mineable/hoe",
+      "#minecraft:wool",
+      "#minecraft:logs",
+      "#minecraft:leaves",
+      "#minecraft:planks",
+      "#minecraft:stone_bricks",
+      "#minecraft:sand",
+      "#minecraft:ice",
+      "#firo:concretes",
+      "#minecraft:terracotta",
+      "#minecraft:buttons",
+      "#minecraft:pressure_plates",
+      "#minecraft:doors",
+      "#minecraft:trapdoors",
+      "#minecraft:fences",
+      "#minecraft:walls",
+      "#minecraft:slabs",
+      "#minecraft:stairs",
+      "#minecraft:signs",
+      "#minecraft:candles",
+      "#minecraft:shulker_boxes",
+      "#minecraft:beacon_base_blocks",
+      "#minecraft:anvil",
+      "#minecraft:fence_gates",
+      "#minecraft:beds",
+      "#minecraft:banners"
+    ]
+  }
+  

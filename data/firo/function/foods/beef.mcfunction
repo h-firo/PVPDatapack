@@ -1,0 +1,1 @@
+$give @s cooked_beef[food={nutrition:8,saturation:8,eat_seconds:1.5}] $(count)
