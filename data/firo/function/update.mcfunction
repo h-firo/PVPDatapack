@@ -7,7 +7,7 @@ function firo:handicap/set_tick
 function firo:game/tick
 function firo:game/items/tick
 function firo:block/tick
-execute if score mode game.flag matches 2 run execute if entity @e[type=armor_stand,tag=collectSpot] at @e[type=armor_stand,tag=collectSpot] run function firo:collect_spot/tick
+execute if entity @e[type=armor_stand,tag=collectSpot] at @e[type=armor_stand,tag=collectSpot] run function firo:collect_spot/tick
 execute if entity @e[type=armor_stand,tag=goldSummon,tag=!gst] run function firo:collect_spot/collect_item/tick_summon
 kill @e[type=experience_orb]
 

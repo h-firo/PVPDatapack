@@ -14,7 +14,7 @@ scoreboard players set green cs.point 0
 scoreboard players set yellow cs.point 0
 scoreboard players set colonyNum bp_num 1
 scoreboard players reset * game.area.timer
-scoreboard players set owner game.area.owner -1
+scoreboard players set owner game.area.owner 0
 title @a clear
 
 #ステージに移動

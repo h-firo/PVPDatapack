@@ -32,7 +32,7 @@ scoreboard players set 3 game.num 3
 scoreboard players set 4 game.num 4
 scoreboard objectives add game.area.timer dummy
 scoreboard objectives add game.area.blockCount dummy
-scoreboard objectives add game.area.blockCountNoOwner dummy
+scoreboard objectives add game.area.blockCount2 dummy
 scoreboard objectives add game.area.owner dummy
 scoreboard objectives add respawn.timer dummy
 scoreboard objectives add handicap.settings.start dummy
@@ -108,6 +108,10 @@ scoreboard objectives add cs.count dummy
 
 #ステージ関係
 scoreboard objectives add stage.colonyCount dummy
+#ステージごとのエリアの位置のstorage
+data merge storage stage.area: \
+{1:{1:{x1:35,y1:-60,z1:104,x2:45,y2:-60,z2:114}},\
+ t:{1:{x1:68,y1:-60,z1:14,x2:72,y2:-60,z2:18},2:{x1:74,y1:-60,z1:14,x2:78,y2:-60,z2:18}}}
 
 #チーム
 team add red

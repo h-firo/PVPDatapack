@@ -1,0 +1,1 @@
+scoreboard players set @s bp_nowTeam -1
