@@ -1,0 +1,2 @@
+summon husk ~-1 ~0.5 ~ {Tags:["trainingTarget"],Rotation:[-90f,0f],NoAI:true,Silent:true,\
+                            ArmorItems:[{id:"diamond_boots"},{id:"diamond_leggings"},{id:"diamond_chestplate"},{id:"diamond_helmet"}]}

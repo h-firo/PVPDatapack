@@ -1,0 +1,2 @@
+summon husk ~-1 ~0.5 ~ {Tags:["trainingTarget"],Rotation:[-90f,0f],NoAI:true,Silent:true,\
+                            ArmorItems:[{id:"netherite_boots"},{id:"netherite_leggings"},{id:"netherite_chestplate"},{id:"netherite_helmet"}]}
