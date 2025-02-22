@@ -11,11 +11,14 @@ particle block{block_state:"minecraft:dirt"} ~ ~ ~ 3 0 3 0 50 normal
 
 #攻撃部分
 $execute if score @s enchant.isItemPowerUp matches 0 run \
-execute as @e[distance=..3] run damage @s 30 explosion by @a[level=$(XpLevel),limit=1]
+execute as @e[distance=..3] run damage @s 60 explosion by @a[level=$(XpLevel),limit=1]
+$execute if score @s enchant.isItemPowerUp matches 0 run \
+execute as @e[distance=..6] run damage @s 21 explosion by @a[level=$(XpLevel),limit=1]
 
 $execute if score @s enchant.isItemPowerUp matches 1 run \
-execute as @e[distance=..6] run damage @s 50 explosion by @a[level=$(XpLevel),limit=1]
-
+execute as @e[distance=..6] run damage @s 150 explosion by @a[level=$(XpLevel),limit=1]
+$execute if score @s enchant.isItemPowerUp matches 1 run \
+execute as @e[distance=..12] run damage @s 60 explosion by @a[level=$(XpLevel),limit=1]
 execute if score @s enchant.isItemPowerUp matches 1 run \
 particle minecraft:totem_of_undying ~ ~ ~ 2 2 2 0 100
 

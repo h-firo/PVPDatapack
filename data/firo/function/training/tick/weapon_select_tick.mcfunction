@@ -1,0 +1,1 @@
+execute as @a[scores={training.isWeaponSelect=1,sneak=1}] run function firo:training/weaponselect_out

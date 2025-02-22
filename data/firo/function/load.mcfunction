@@ -10,6 +10,10 @@ scoreboard objectives add player.useItem dummy
 scoreboard objectives add player.isSelectReady dummy
 scoreboard objectives add point dummy
 
+#トレーニング関係
+scoreboard objectives add training.targetGiveDamage dummy
+scoreboard objectives add training.isWeaponSelect dummy
+
 #買い物関係
 scoreboard objectives add shop.needPoint dummy
 
