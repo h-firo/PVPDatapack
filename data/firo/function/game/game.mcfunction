@@ -18,6 +18,7 @@ scoreboard players set owner game.area.owner 0
 title @a clear
 
 #ステージに移動
+execute if score stage game.settings matches 0 store result score stage game.settings run random value 1..4
 function firo:game/move_stage
 #動けなくする
 effect give @a slowness 7 255 true 
@@ -26,7 +27,7 @@ scoreboard players operation time game.timer = time game.settings
 scoreboard players set count game.timer 140
 #ボスバー設定
 bossbar set minecraft:time name "試合終了まで"
-execute store result bossbar minecraft:time max run scoreboard players get maxTime game.settings
+execute store result bossbar minecraft:time max run scoreboard players get time game.settings
 bossbar set minecraft:time color red
 #属性設定
 execute as @a run attribute @s generic.step_height base set 0.6

@@ -1,6 +1,6 @@
 #ランダム
 execute if score stage game.settings matches 0 run \
-function firo:game/stages/stage2
+function firo:exception {"content":"ステージのランダム設定が上手く動きませんでした"}
 #闘技場
 execute if score stage game.settings matches 1 run \
 function firo:game/stages/stage1

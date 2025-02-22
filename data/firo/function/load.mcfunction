@@ -4,6 +4,9 @@ say reload
 scoreboard objectives add right_click minecraft.used:carrot_on_a_stick
 scoreboard objectives add sneak minecraft.custom:sneak_time
 
+#その他
+scoreboard objectives add random dummy
+
 #プレイヤー関係
 scoreboard objectives add player.team dummy
 scoreboard objectives add player.useItem dummy

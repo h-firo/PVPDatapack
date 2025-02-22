@@ -8,4 +8,4 @@ setblock 46 -59 38 oak_sign[rotation=8]\
 setblock 45 -59 38 oak_sign[rotation=8]\
 {front_text:{messages:['{"text":""}','{"text":"Kill","color":"light_purple","bold":true,"clickEvent":{"action":"run_command","value":"/function firo:sign/battle_rule/kill"}}','{"text":""}','{"text":""}']}} destroy
 setblock 44 -59 38 oak_sign[rotation=8]\
-{front_text:{messages:['{"text":""}','{"text":"Battle Royale","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/function firo:sign/battle_rule/battle_royale"}}','{"text":""}','{"text":""}']}} destroy
+{front_text:{messages:['{"text":""}','{"text":"ランダム","color":"gray","bold":true,"clickEvent":{"action":"run_command","value":"/function firo:sign/battle_rule/random"}}','{"text":""}','{"text":""}']}} destroy

@@ -1,9 +1,7 @@
-scoreboard players set @s barrier.timer 200
+execute if score @s player.team matches 0 as @a[scores={player.team=0}] run function firo:items/barrier/teamplayer_take
+execute if score @s player.team matches 1 as @a[scores={player.team=1}] run function firo:items/barrier/teamplayer_take
+execute if score @s player.team matches 2 as @a[scores={player.team=2}] run function firo:items/barrier/teamplayer_take
+execute if score @s player.team matches 3 as @a[scores={player.team=3}] run function firo:items/barrier/teamplayer_take
 playsound block.enchantment_table.use player @a ~ ~ ~
-clear @s carrot_on_a_stick[custom_data={isBarrier:true}]
+clear @s carrot_on_a_stick[custom_data={isBarrier:true}] 1
 scoreboard players set @s right_click 0
-scoreboard players set @s barrier.durability 0
-effect give @s resistance 10 200 true
-
-#バリア演出
-function firo:items/barrier/summon_barrier with entity @s

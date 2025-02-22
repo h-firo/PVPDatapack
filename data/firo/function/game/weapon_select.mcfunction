@@ -6,6 +6,7 @@ clear @a gold_nugget[custom_data={isCI:true}]
 scoreboard players set count cs.item.count 0
 tp @a 23 -59 26
 playsound entity.experience_orb.pickup block @a
+function firo:collect_spot/clear
 
 #アイテム購入時間
 scoreboard players set time game.timer 3600
@@ -14,6 +15,9 @@ scoreboard players set ready game.flag 0
 scoreboard players add phase game.phase 1
 worldborder center 0 0
 worldborder set 1000
+
+#ルールがランダムの時
+execute if score rule game.settings matches 4 run function firo:game/random_rule
 
 #ボスバー設定
 bossbar set minecraft:time name "制限時間"
