@@ -10,3 +10,6 @@ function firo:game/stages/stage2
 #フォール滝
 execute if score stage game.settings matches 3 run \
 function firo:game/stages/stage3
+#アポカリプスヒルズ
+execute if score stage game.settings matches 4 run \
+function firo:game/stages/stage4

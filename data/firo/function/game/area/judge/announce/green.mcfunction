@@ -1,5 +1,7 @@
 scoreboard players set owner game.area.owner 2
 execute if score stage game.settings matches 1 run function firo:game/area/fill/stage1 {color:green}
+execute if score stage game.settings matches 3 run function firo:game/area/fill/stage3 {color:green}
+execute if score stage game.settings matches 4 run function firo:game/area/fill/stage4 {color:green}
 
 execute if score stage game.settings matches 1 positioned 40 -59 109 run \
 particle dust{color:[0.000,1.000,0.133],scale:1} ~ ~ ~ 5 5 5 1 200 normal

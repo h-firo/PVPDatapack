@@ -5,4 +5,10 @@ gamemode spectator @s
 title @s times 0 60 0
 execute if score stage game.settings matches 1 run \
 tp @s 40 -52 109
+execute if score stage game.settings matches 2 run \
+tp @s -44 -48 159
+execute if score stage game.settings matches 3 run \
+tp @s -21 -38 67
+execute if score stage game.settings matches 4 run \
+tp @s 47 -60 195
 title @s title {"color": "dark_red","text": "死んでしまった！！"}
