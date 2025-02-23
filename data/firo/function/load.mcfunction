@@ -120,7 +120,7 @@ data merge storage stage.area: \
 {1:{1:{x1:35,y1:-60,z1:104,x2:45,y2:-60,z2:114}},\
  t:{1:{x1:68,y1:-60,z1:14,x2:72,y2:-60,z2:18},2:{x1:74,y1:-60,z1:14,x2:78,y2:-60,z2:18}}}
 
-#チーム
+#チームとチーム関連スコアボード
 team add red
 team add blue
 team add green
@@ -137,6 +137,10 @@ team modify red prefix "Red-"
 team modify blue prefix "Blue-"
 team modify green prefix "Green-"
 team modify yellow prefix "Yellow-"
+scoreboard objectives add team.unassignedCount dummy
+scoreboard objectives add team.teamSize dummy
+scoreboard objectives add team.counter dummy
+scoreboard objectives add team.teamCount dummy
 
 bossbar add time "Limit"
 bossbar set time players @a

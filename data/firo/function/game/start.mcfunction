@@ -12,11 +12,7 @@ scoreboard players set blue satistics.winCount 0
 scoreboard players set green satistics.winCount 0
 scoreboard players set yellow satistics.winCount 0
 #ランダムなチーム分け
-scoreboard players operation PlayerPerTeam game.settings = count game.playerCount
-execute if score maxTeamCount game.settings matches 2 run scoreboard players operation PlayerPerTeam game.settings /= 2 game.num
-execute if score maxTeamCount game.settings matches 3 run scoreboard players operation PlayerPerTeam game.settings /= 3 game.num
-execute if score maxTeamCount game.settings matches 4 run scoreboard players operation PlayerPerTeam game.settings /= 4 game.num
-function firo:game/random_team
+function firo:game/random_team/assign_teams
 #スタートポイント付与
 scoreboard players operation @a point += sp game.settings
 tellraw @a ["",{"text":"\u5168\u54e1\u306b"},\
