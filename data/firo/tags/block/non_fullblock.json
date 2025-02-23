@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:air",
+      "minecraft:water",
+      "minecraft:short_grass",
+      "minecraft:tall_grass",
+      "minecraft:ladder",
+      "minecraft:lever",
+      "#minecraft:buttons",
+      "#minecraft:pressure_plates",
+      "#minecraft:wool_carpets",
+      "minecraft:iron_bars",
+      "minecraft:chain",
+      "minecraft:rail",
+      "minecraft:detector_rail",
+      "minecraft:activator_rail",
+      "minecraft:wall_torch",
+      "minecraft:torch",
+      "#minecraft:wall_signs",
+      "#minecraft:standing_signs",
+      "minecraft:vine"
+    ]
+  }

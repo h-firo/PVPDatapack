@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"color":"blue","text":"Awakening"}',lore=['"一定時間、移動速度と攻撃力と攻撃速度が急激に上昇する。"'],custom_data={isAwaking:true},custom_model_data=7] 1

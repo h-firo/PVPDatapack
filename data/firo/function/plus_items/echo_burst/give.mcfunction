@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"color":"aqua","text":"Echo Burst"}',lore=['"向いている方向に突進する。"'],custom_data={isBurst:true},custom_model_data=7] 1

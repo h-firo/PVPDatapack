@@ -34,6 +34,7 @@ function firo:buy/list/plus_item {z:26,color:cyan,text:"ハイパーレーザー
 function firo:buy/list/plus_item {z:27,color:blue,text:"デコイレイン",point:20,path:decoyrain}
 function firo:buy/list/plus_item {z:28,color:purple,text:"ライトニングスピア",point:20,path:lightning_spear}
 function firo:buy/list/plus_item {z:29,color:gray,text:"ガードソード",point:30,path:justguard}
+function firo:buy/list/plus_item {z:30,color:cyan,text:"エコーバースト",point:30,path:echo_burst}
 
 #ブロック
 function firo:buy/list/block {x:20,color:orange,text:"firo.block.dirt",type:dirt,point:1}

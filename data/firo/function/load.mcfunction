@@ -94,6 +94,9 @@ scoreboard objectives add guard.timer dummy
 scoreboard objectives add guard.isAlreadyGuard dummy
 scoreboard objectives add laser.useCount dummy
 scoreboard objectives add laser.tempOp dummy
+scoreboard objectives add awakening.timer dummy
+scoreboard objectives add awakening.is dummy
+scoreboard objectives add echo.is dummy
 
 #エンチャント関係
 scoreboard objectives add enchant.isItemPowerUp dummy
@@ -112,6 +115,14 @@ scoreboard objectives add cs.item.timer dummy
 scoreboard objectives add cs.item.count dummy
 scoreboard objectives add cs.point dummy
 scoreboard objectives add cs.count dummy
+
+#アイテムラッシュ関係
+scoreboard objectives add rush.isRush dummy
+scoreboard objectives add rush.selectItem dummy
+scoreboard objectives add rush.needRushPoint dummy
+scoreboard objectives add rush.timer dummy
+scoreboard objectives add rush.canAddPoint dummy
+scoreboard objectives add rush.rushPoint dummy
 
 #ステージ関係
 scoreboard objectives add stage.colonyCount dummy

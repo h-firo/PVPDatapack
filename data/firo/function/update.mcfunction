@@ -7,6 +7,7 @@ function firo:handicap/set_tick
 function firo:game/tick
 function firo:game/items/tick
 function firo:block/tick
+execute if score is rush.isRush matches 1 run function firo:item_rush/rush_tick
 execute if entity @a[scores={training.isWeaponSelect=1}] run function firo:training/tick/weapon_select_tick
 execute if entity @e[type=armor_stand,tag=collectSpot] at @e[type=armor_stand,tag=collectSpot] run function firo:collect_spot/tick
 execute if entity @e[type=armor_stand,tag=goldSummon,tag=!gst] run function firo:collect_spot/collect_item/tick_summon
