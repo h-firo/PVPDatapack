@@ -2,7 +2,7 @@
 function firo:buy/list/equipment {z:34,color:gray,text:"ｌｖ１装備",point:10,path:level1}
 function firo:buy/list/equipment {z:33,color:white,text:"ｌｖ２装備",point:20,path:level2}
 function firo:buy/list/equipment {z:32,color:cyan,text:"ｌｖ３装備",point:80,path:level3}
-function firo:buy/list/equipment {z:31,color:yellow,text:"ｌｖ４装備",point:100,path:level4}
+function firo:buy/list/equipment {z:31,color:yellow,text:"ｌｖ４装備",point:150,path:level4}
 function firo:buy/list/equipment {z:30,color:orange,text:"遠距離武器",point:30,path:ranged_weapons}
 function firo:buy/list/equipment {z:29,color:light_blue,text:"トライデント",point:50,path:trident}
 function firo:buy/list/equipment {z:28,color:lime,text:"盾",point:60,path:shield}
