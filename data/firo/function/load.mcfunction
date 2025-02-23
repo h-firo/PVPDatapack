@@ -97,6 +97,9 @@ scoreboard objectives add laser.tempOp dummy
 scoreboard objectives add awakening.timer dummy
 scoreboard objectives add awakening.is dummy
 scoreboard objectives add echo.is dummy
+scoreboard objectives add frameNova.is dummy
+scoreboard objectives add frameNova.timer dummy
+scoreboard objectives add frameNova.expandTimer dummy
 
 #エンチャント関係
 scoreboard objectives add enchant.isItemPowerUp dummy

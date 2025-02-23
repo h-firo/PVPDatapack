@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=frame,tag=!fsummon] at @s run function firo:plus_items/frame_nova/frame_tick
