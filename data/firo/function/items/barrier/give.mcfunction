@@ -1,1 +1,1 @@
-give @p carrot_on_a_stick[custom_name='{"color":"aqua","text":"Barrier"}',lore=['"一定時間、小さなダメージを完全無効化する。"','"５回ダメージを受けると壊れる。"'],custom_model_data=3,custom_data={isBarrier:true}] 1
+give @p carrot_on_a_stick[custom_name='{"color":"aqua","text":"Barrier"}',lore=['"一定時間、ダメージを完全無効化する。"','"５回ダメージを受けると壊れる。"'],custom_model_data=3,custom_data={isBarrier:true}] 1

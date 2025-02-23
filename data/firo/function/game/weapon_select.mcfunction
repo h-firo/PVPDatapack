@@ -13,6 +13,9 @@ scoreboard players set time game.timer 3600
 scoreboard players set mode game.flag 0
 scoreboard players set ready game.flag 0
 scoreboard players add phase game.phase 1
+scoreboard players set @a rush.rushPoint 0
+scoreboard players set @a rush.timer 0
+scoreboard players set @a rush.canAddPoint 0
 worldborder center 0 0
 worldborder set 1000
 

@@ -32,7 +32,7 @@ function firo:buy/list/enchantment {z:25,color:blue,text:"復活ペナルティ"
 #追加アイテム
 function firo:buy/list/plus_item {z:26,color:cyan,text:"ハイパーレーザー",point:30,path:hyper_laser}
 function firo:buy/list/plus_item {z:27,color:blue,text:"デコイレイン",point:20,path:decoyrain}
-function firo:buy/list/plus_item {z:28,color:purple,text:"ライトニングスピア",point:20,path:lightning_spear}
+function firo:buy/list/plus_item {z:28,color:purple,text:"ライトニングスピア",point:10,path:lightning_spear}
 function firo:buy/list/plus_item {z:29,color:gray,text:"ガードソード",point:30,path:justguard}
 function firo:buy/list/plus_item {z:30,color:cyan,text:"エコーバースト",point:30,path:echo_burst}
 
