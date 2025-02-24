@@ -31,8 +31,7 @@
               "minecraft:jump_boost",
               "minecraft:resistance",
               "minecraft:strength",
-              "minecraft:haste",
-              "minecraft:regeneration"
+              "minecraft:haste"
             ],
             "min_duration": 2,
             "max_duration": 2,

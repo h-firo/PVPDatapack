@@ -59,6 +59,7 @@ scoreboard objectives add sign.temp dummy
 #統計関係
 scoreboard objectives add killCount playerKillCount
 scoreboard objectives add totalKillCount dummy
+scoreboard objectives add isDeath minecraft.custom:deaths
 scoreboard objectives add deathCount minecraft.killed_by:player
 scoreboard objectives add totalDeathCount dummy
 scoreboard objectives add giveDamage minecraft.custom:damage_dealt

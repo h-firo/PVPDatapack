@@ -15,7 +15,7 @@ function firo:game/items/concrete/tick
 execute if score mode game.flag matches 2 if score rule game.settings matches 1 as @a run \
 function firo:game/area/tick
 
-execute if score mode game.flag matches 2 as @a[scores={respawn.timer=1..}] run \
+execute as @a[scores={respawn.timer=1..}] run \
 function firo:game/respawn/tick
 execute if score mode game.flag matches 2 if score time game.timer matches ..0 \
 run function firo:game/end/end
