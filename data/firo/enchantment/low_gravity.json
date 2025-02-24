@@ -33,7 +33,7 @@
         {
           "attribute": "minecraft:generic.safe_fall_distance",
           "id": "firo_enchantment.fall",
-          "amount": 5,
+          "amount": 100,
           "operation": "add_value"
         },
         {

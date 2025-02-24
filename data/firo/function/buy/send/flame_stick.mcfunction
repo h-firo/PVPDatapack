@@ -1,1 +1,1 @@
-give @s blaze_rod[enchantments={fire_aspect:1,knockback:1},custom_name='{"text":"火炎棒"}']
+give @s blaze_rod[enchantments={fire_aspect:1},custom_name='{"text":"火炎棒"}']

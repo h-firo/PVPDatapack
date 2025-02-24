@@ -24,7 +24,7 @@ function firo:buy/list/enchantment {z:18,color:purple,text:"特殊アイテム�
 function firo:buy/list/enchantment {z:19,color:cyan,text:"移動強化",point:50,path:move_power_up,slot:feet,type:foot}
 function firo:buy/list/henchantment {z:20,color:magenta,text:"超拡散",point:60,path:super_multishot,type:bows}
 function firo:buy/list/henchantment {z:21,color:red,text:"爆裂の矢",point:25,path:explode_arrow,type:bows}
-function firo:buy/list/enchantment {z:22,color:light_blue,text:"重力低下",point:20,path:low_gravity,slot:feet,type:foot}
+function firo:buy/list/enchantment {z:22,color:light_blue,text:"重力低下",point:20,path:low_gravity,slot:legs,type:leg}
 function firo:buy/list/enchantment {z:23,color:pink,text:"小人化",point:60,path:small_scale,slot:head,type:head}
 function firo:buy/list/enchantment {z:24,color:orange,text:"伸腕",point:50,path:lange_arm,slot:chest,type:chest}
 function firo:buy/list/enchantment {z:25,color:blue,text:"復活ペナルティ",point:50,path:item_power_up,slot:legs,type:legs}
@@ -35,6 +35,7 @@ function firo:buy/list/plus_item {z:27,color:blue,text:"デコイレイン",poin
 function firo:buy/list/plus_item {z:28,color:purple,text:"ライトニングスピア",point:10,path:lightning_spear}
 function firo:buy/list/plus_item {z:29,color:gray,text:"ガードソード",point:30,path:justguard}
 function firo:buy/list/plus_item {z:30,color:cyan,text:"エコーバースト",point:30,path:echo_burst}
+function firo:buy/list/plus_item {z:31,color:red,text:"フレイムノヴァ",point:35,path:frame_nova}
 
 #ブロック
 function firo:buy/list/block {x:20,color:orange,text:"firo.block.dirt",type:dirt,point:1}

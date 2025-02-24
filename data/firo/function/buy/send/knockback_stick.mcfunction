@@ -1,1 +1,1 @@
-give @s stick[enchantments={knockback:2},custom_name='{"text":"ノックバック棒"}']
+give @s stick[enchantments={knockback:1},custom_name='{"text":"ノックバック棒"}']
