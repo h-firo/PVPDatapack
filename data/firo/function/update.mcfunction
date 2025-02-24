@@ -1,9 +1,6 @@
 execute if score is rush.isRush matches 1 run function firo:item_rush/rush_tick
 function firo:items/item_tick
 function firo:plus_items/item_tick
-execute as @a[scores={enchant.isItemPowerUp=1}] \
-unless items entity @s armor.chest #chest_armor[enchantments={levels:{"firo:item_power_up":1}}] \
-at @s run scoreboard players set @s enchant.isItemPowerUp 0
 function firo:handicap/set_tick
 function firo:game/tick
 function firo:game/items/tick

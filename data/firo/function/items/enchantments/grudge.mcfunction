@@ -1,0 +1,1 @@
+scoreboard players set @s enchant.isGrudge 1

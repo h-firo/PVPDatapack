@@ -1,0 +1,41 @@
+{
+    "description": "うらみ",
+    "supported_items": [
+      "minecraft:netherite_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:leather_leggings"
+    ],
+    "primary_items": [
+      "minecraft:netherite_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:leather_leggings"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "legs"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "firo:items/enchantments/grudge"
+          }
+        }
+      ]
+    }
+  }

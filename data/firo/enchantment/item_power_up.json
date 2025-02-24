@@ -33,7 +33,7 @@
         {
           "effect": {
             "type": "minecraft:run_function",
-            "function": "firo:items/item_power_up/tick"
+            "function": "firo:items/enchantments/item_power_up"
           }
         }
       ]

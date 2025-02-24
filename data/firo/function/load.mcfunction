@@ -57,6 +57,7 @@ scoreboard objectives add sign.sucFlag dummy
 scoreboard objectives add sign.temp dummy
 
 #統計関係
+scoreboard objectives add isKill dummy
 scoreboard objectives add killCount playerKillCount
 scoreboard objectives add totalKillCount dummy
 scoreboard objectives add isDeath minecraft.custom:deaths
@@ -104,6 +105,7 @@ scoreboard objectives add frameNova.expandTimer dummy
 
 #エンチャント関係
 scoreboard objectives add enchant.isItemPowerUp dummy
+scoreboard objectives add enchant.isGrudge dummy
 
 #colony関係
 scoreboard objectives add bp_point dummy
