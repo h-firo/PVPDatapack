@@ -17,5 +17,6 @@ function firo:game/area/tick
 
 execute as @a[scores={respawn.timer=1..}] run \
 function firo:game/respawn/tick
+execute if entity @a[scores={enchant.hatedTime=1..}] run scoreboard players remove @a[scores={enchant.hatedTime=1..}] enchant.hatedTime 1
 execute if score mode game.flag matches 2 if score time game.timer matches ..0 \
 run function firo:game/end/end

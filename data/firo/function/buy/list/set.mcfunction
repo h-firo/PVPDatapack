@@ -20,14 +20,14 @@ function firo:buy/list/item {z:19,color:magenta,text:"バッドポーション",
 function firo:buy/list/item {z:18,color:cyan,text:"バリア",point:30,path:barrier}
 
 #エンチャント
-function firo:buy/list/enchantment {z:18,color:purple,text:"特殊アイテム強化",point:50,path:item_power_up,slot:chest,type:chest}
+function firo:buy/list/enchantment {z:18,color:purple,text:"特殊アイテム強化",point:40,path:item_power_up,slot:chest,type:chest}
 function firo:buy/list/enchantment {z:19,color:cyan,text:"移動強化",point:50,path:move_power_up,slot:feet,type:foot}
 function firo:buy/list/henchantment {z:20,color:magenta,text:"超拡散",point:60,path:super_multishot,type:bows}
 function firo:buy/list/henchantment {z:21,color:red,text:"爆裂の矢",point:25,path:explode_arrow,type:bows}
 function firo:buy/list/enchantment {z:22,color:light_blue,text:"重力低下",point:20,path:low_gravity,slot:legs,type:leg}
 function firo:buy/list/enchantment {z:23,color:pink,text:"小人化",point:60,path:small_scale,slot:head,type:head}
 function firo:buy/list/enchantment {z:24,color:orange,text:"伸腕",point:50,path:lange_arm,slot:chest,type:chest}
-function firo:buy/list/enchantment {z:25,color:blue,text:"復活ペナルティ",point:50,path:item_power_up,slot:legs,type:legs}
+function firo:buy/list/enchantment {z:25,color:blue,text:"うらみ",point:50,path:grudge,slot:legs,type:leg}
 
 #追加アイテム
 function firo:buy/list/plus_item {z:26,color:cyan,text:"ハイパーレーザー",point:30,path:hyper_laser}

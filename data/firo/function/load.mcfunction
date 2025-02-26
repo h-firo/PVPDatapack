@@ -37,6 +37,7 @@ scoreboard players set 13 game.num 13
 scoreboard players set 2 game.num 2
 scoreboard players set 3 game.num 3
 scoreboard players set 4 game.num 4
+scoreboard players set 60 game.num 60
 scoreboard objectives add game.area.timer dummy
 scoreboard objectives add game.area.blockCount dummy
 scoreboard objectives add game.area.blockCount2 dummy
@@ -106,6 +107,7 @@ scoreboard objectives add frameNova.expandTimer dummy
 #エンチャント関係
 scoreboard objectives add enchant.isItemPowerUp dummy
 scoreboard objectives add enchant.isGrudge dummy
+scoreboard objectives add enchant.hatedTime dummy
 
 #colony関係
 scoreboard objectives add bp_point dummy

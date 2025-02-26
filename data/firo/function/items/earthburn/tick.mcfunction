@@ -1,6 +1,6 @@
 execute as @a[scores={right_click=1..}] \
 if items entity @s weapon.* carrot_on_a_stick[custom_data={isEarthBurn:true}] \
-if score @s player.useItem matches 0 run \
+if score @s player.useItem matches 0 at @s run \
 function firo:items/earthburn/1 {count:1}
 
 execute as @a[scores={player.useItem=1}] at @s run particle firework ~ ~ ~ 0 0 0 0 3 normal

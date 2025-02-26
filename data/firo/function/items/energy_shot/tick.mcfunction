@@ -39,3 +39,6 @@ run execute as @n[type=player] at @s run function firo:items/energy_shot/end
 
     execute as @e[type=area_effect_cloud,tag=ground,nbt={Age:2}] at @s run \
     function firo:items/energy_shot/check_aec with entity @s
+
+#エフェクト
+execute as @a[scores={player.useItem=2}] at @s run particle firework ~ ~ ~ 0 0 0 0 3 normal
