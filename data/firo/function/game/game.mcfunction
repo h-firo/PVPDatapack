@@ -19,7 +19,7 @@ execute if score rule game.settings matches 2 run scoreboard objectives setdispl
 title @a clear
 
 #ステージに移動
-execute if score stage game.settings matches 0 store result score stage game.settings run random value 1..4
+execute if score stage game.settings matches 0 store result score stage game.settings run random value 1..5
 function firo:game/move_stage
 #動けなくする
 effect give @a slowness 7 255 true 

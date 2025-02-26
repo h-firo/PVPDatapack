@@ -18,3 +18,7 @@ setblock 32 -57 36 birch_wall_sign[facing=east]\
 {front_text:{messages:['{"text":""}','{"text":"アポカリプスヒルズ","color":"dark_purple",\
     "clickEvent":{"action":"run_command","value":"/function firo:sign/stage/select_stage {num:4}"}}',\
     '{"text":""}','{"text":""}']}} replace
+    setblock 32 -57 35 birch_wall_sign[facing=east]\
+{front_text:{messages:['{"text":""}','{"text":"ヒラメが丘団地","color":"blue",\
+    "clickEvent":{"action":"run_command","value":"/function firo:sign/stage/select_stage {num:5}"}}',\
+    '{"text":""}','{"text":""}']}} replace
