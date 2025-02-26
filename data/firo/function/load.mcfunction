@@ -87,6 +87,7 @@ scoreboard objectives add missile.owner dummy
 scoreboard objectives add entity.baseValue dummy
 scoreboard objectives add barrier.timer dummy
 scoreboard objectives add barrier.durability dummy
+scoreboard objectives add energyPotion.timer dummy
 scoreboard objectives add energy.timer dummy
 scoreboard objectives add energy.flag dummy
 scoreboard objectives add energy.charge dummy

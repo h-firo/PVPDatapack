@@ -1,5 +1,6 @@
 scoreboard players operation @s respawn.timer = respawnTime game.settings
 execute if score @s enchant.hatedTime matches 1.. run scoreboard players operation @s respawn.timer += 60 game.num
+execute if score @s energyPotion.timer matches 1.. run scoreboard players operation @s respawn.timer -= 40 game.num
 scoreboard players set @s isDeath 0
 execute if score @s enchant.isGrudge matches 1 as @a[scores={isKill=1..}] run function firo:game/respawn/take_grudge
 scoreboard players set @a[scores={isKill=1..}] isKill 0
@@ -16,4 +17,5 @@ tp @s -21 -38 67
 execute if score stage game.settings matches 4 run \
 tp @s 47 -60 195
 title @s title {"color": "dark_red","text": "死んでしまった！！"}
-execute if score @s enchant.hatedTime matches 1.. run title @s subtitle {"color": "dark_red","text": "被害者に恨まれていたため、復活時間が伸びた"}
+execute if score @s enchant.hatedTime matches 1.. run title @s subtitle {"color": "red","text": "被害者に恨まれていたため、復活時間が伸びた"}
+execute if score @s energyPotion.timer matches 1.. run title @s subtitle {"color": "dark_green","text": "エナジーポーションの効果で、復活時間が短縮した"}
