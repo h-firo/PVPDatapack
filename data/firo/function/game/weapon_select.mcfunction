@@ -32,6 +32,7 @@ bossbar set minecraft:time visible true
 title @a times 0 100 0
 title @a title {"bold":true,"color":"white","text":"アイテム購入"}
 title @p subtitle {"bold":true,"color":"white","text":"制限時間:３分"}
-tellraw @a ["",{"text":"\u30a2\u30a4\u30c6\u30e0\u9078\u629e\u304c\u5b8c\u4e86\u3057\u305f\u3089"},\
+execute as @a unless score @s player.team matches 4 run \
+tellraw @s ["",{"text":"\u30a2\u30a4\u30c6\u30e0\u9078\u629e\u304c\u5b8c\u4e86\u3057\u305f\u3089"},\
             {"text":"\u300c\u3053\u3053\u300d","bold":true,"color":"blue","clickEvent":{"action":"run_command","value":"/function firo:game/select_ready"}},\
             {"text":"\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\uff01\uff01"}]

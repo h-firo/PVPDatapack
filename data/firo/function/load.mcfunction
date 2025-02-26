@@ -23,6 +23,7 @@ scoreboard objectives add shop.needPoint dummy
 #試合関係
 scoreboard objectives add game.levelNum dummy
 scoreboard objectives add game.playerCount dummy
+scoreboard objectives add game.activePlayerCount dummy
 scoreboard objectives add player.team.memberCount dummy
 scoreboard objectives add game.settings dummy
 scoreboard objectives add game.timer dummy
@@ -34,6 +35,7 @@ scoreboard objectives add game.num dummy
 scoreboard players set 10 game.num 10
 scoreboard players set 12 game.num 12
 scoreboard players set 13 game.num 13
+scoreboard players set 15 game.num 15
 scoreboard players set 2 game.num 2
 scoreboard players set 3 game.num 3
 scoreboard players set 4 game.num 4

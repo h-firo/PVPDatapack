@@ -25,5 +25,6 @@ scoreboard players set green cs.point 0
 scoreboard players set yellow cs.point 0
 effect clear @a
 execute as @a run attribute @s generic.gravity base set 0.08
+effect give @a night_vision infinite 1 true
 function firo:base_points/clear
 function firo:collect_spot/clear

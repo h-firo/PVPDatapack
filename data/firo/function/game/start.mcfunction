@@ -4,7 +4,7 @@ execute as @a unless score @s player.team matches 4 run gamemode adventure @s
 gamemode spectator @a[scores={player.team=4}]
 clear @a
 execute if score count game.playerCount matches 1 run return run \
-function firo:exception {content:"You is only player lol"}
+function firo:exception {content:"一人ではプレイできません"}
 scoreboard players set @a point 0
 scoreboard players set phase game.phase 0
 scoreboard players set red satistics.winCount 0

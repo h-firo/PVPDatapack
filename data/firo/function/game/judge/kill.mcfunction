@@ -13,6 +13,8 @@ execute as @e[type=armor_stand,tag=point_counter] if score @s satistics.rank mat
 function firo:game/end/second
 execute as @e[type=armor_stand,tag=point_counter] if score @s satistics.rank matches 3 run \
 function firo:game/end/third
+execute as @e[type=armor_stand,tag=point_counter] if score @s satistics.rank matches 0 run \
+function firo:game/end/fourth
 kill @e[type=armor_stand,tag=point_counter]
 scoreboard players reset * killCount
 execute if score phase game.phase >= maxPhase game.settings run return run function firo:game/end/all_end

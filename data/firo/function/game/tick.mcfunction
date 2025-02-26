@@ -1,5 +1,5 @@
 execute if score mode game.flag matches 0 run \
-execute if score ready game.flag = count game.playerCount run \
+execute if score ready game.flag = count game.activePlayerCount run \
 function firo:game/game
 execute if score mode game.flag matches 0 if score time game.timer matches ..0 run \
 function firo:game/game

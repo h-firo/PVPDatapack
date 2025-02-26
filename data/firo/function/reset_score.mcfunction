@@ -35,6 +35,7 @@ worldborder center 0 0
 worldborder set 1000
 effect clear @a
 execute as @a run attribute @s generic.gravity base set 0.08
+effect give @a night_vision infinite 1 true
 setworldspawn 46 -59 27
 function firo:base_points/clear
 function firo:collect_spot/clear

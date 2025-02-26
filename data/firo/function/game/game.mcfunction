@@ -15,6 +15,7 @@ scoreboard players set yellow cs.point 0
 scoreboard players set colonyNum bp_num 1
 scoreboard players reset * game.area.timer
 scoreboard players set owner game.area.owner 0
+execute if score rule game.settings matches 2 run scoreboard objectives setdisplay below_name cs.point
 title @a clear
 
 #ステージに移動

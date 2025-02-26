@@ -9,6 +9,7 @@ execute if entity @a[scores={training.isWeaponSelect=1}] run function firo:train
 execute if entity @e[type=armor_stand,tag=collectSpot] at @e[type=armor_stand,tag=collectSpot] run function firo:collect_spot/tick
 execute if entity @e[type=armor_stand,tag=goldSummon,tag=!gst] run function firo:collect_spot/collect_item/tick_summon
 kill @e[type=experience_orb]
+execute as @a[tag=!operator] unless score @s player.team matches 4 unless entity @s[gamemode=adventure] run gamemode adventure @s
 
 #タイマー処理
 execute unless score mode game.flag matches -1 run scoreboard players remove time game.timer 1
