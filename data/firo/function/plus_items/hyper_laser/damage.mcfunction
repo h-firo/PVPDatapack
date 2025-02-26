@@ -1,1 +1,1 @@
-$execute as @e[dx=0,dy=0,dz=0,nbt=!{UUID:$(Owner)},type=!item,type=!item_frame] run damage @s 9 magic by @a[nbt={UUID:$(Owner)},limit=1]
+$execute as @e[dx=0,dy=0,dz=0,nbt=!{UUID:$(Owner)},type=!item,type=!item_frame] run damage @s 9 firo:hyper_laser by @a[nbt={UUID:$(Owner)},limit=1]

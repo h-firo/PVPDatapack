@@ -1,5 +1,5 @@
 scoreboard players set @s echo.is 1
-execute as @e[distance=..5,type=!item_frame] unless score @s echo.is matches 1 run damage @s 19 sonic_boom by @a[scores={echo.is=1},limit=1,sort=nearest]
+execute as @e[distance=..5,type=!item_frame] unless score @s echo.is matches 1 run damage @s 19 firo:echo by @a[scores={echo.is=1},limit=1,sort=nearest]
 execute anchored eyes unless block ^ ^ ^1 #firo:non_fullblock run scoreboard players set @s echo.is 0
 execute anchored eyes unless block ^ ^ ^1 #firo:non_fullblock run return run tp @s ~ ~ ~
 particle sonic_boom ~ ~ ~ 0 0 0 0 1
