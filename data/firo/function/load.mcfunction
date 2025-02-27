@@ -23,6 +23,7 @@ scoreboard objectives add shop.needPoint dummy
 
 #試合関係
 scoreboard objectives add game.levelNum dummy
+scoreboard objectives add game.isRandomRule dummy
 scoreboard objectives add game.playerCount dummy
 scoreboard objectives add game.activePlayerCount dummy
 scoreboard objectives add player.team.memberCount dummy

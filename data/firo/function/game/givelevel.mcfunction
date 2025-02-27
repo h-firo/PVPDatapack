@@ -1,5 +1,6 @@
 experience set @a 0 levels
 scoreboard players set count game.playerCount 0
+scoreboard players set count game.activePlayerCount 0
 execute as @a run scoreboard players add count game.playerCount 1
 execute as @a unless score @s player.team matches 4 run scoreboard players add count game.activePlayerCount 1
 

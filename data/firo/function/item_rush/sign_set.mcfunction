@@ -29,8 +29,8 @@ setblock 24 -57 8 birch_wall_sign[facing=west]{front_text:{color:"blue",messages
 "clickEvent":{"action":"run_command","value":"/function firo:item_rush/set_rashitem {Select:9,Need:20}"}}','"20rpt"','{"text":""}']}} \
 replace
 setblock 24 -57 9 birch_wall_sign[facing=west]{front_text:{color:"purple",messages:['{"text":""}','{"text":"ライトニングスピア","bold":true,\
-"clickEvent":{"action":"run_command","value":"/function firo:item_rush/set_rashitem {Select:4,Need:10}"}}','"10rpt"','{"text":""}']}} \
+"clickEvent":{"action":"run_command","value":"/function firo:item_rush/set_rashitem {Select:10,Need:10}"}}','"10rpt"','{"text":""}']}} \
 replace
 setblock 24 -57 10 birch_wall_sign[facing=west]{front_text:{color:"cyan",messages:['{"text":""}','{"text":"エコーバースト","bold":true,\
-"clickEvent":{"action":"run_command","value":"/function firo:item_rush/set_rashitem {Select:4,Need:30}"}}','"30rpt"','{"text":""}']}} \
+"clickEvent":{"action":"run_command","value":"/function firo:item_rush/set_rashitem {Select:11,Need:30}"}}','"30rpt"','{"text":""}']}} \
 replace

@@ -20,6 +20,7 @@ worldborder center 0 0
 worldborder set 1000
 
 #ルールがランダムの時
+execute if score is game.isRandomRule matches 1 run function firo:game/random_rule
 execute if score rule game.settings matches 4 run function firo:game/random_rule
 
 #ボスバー設定

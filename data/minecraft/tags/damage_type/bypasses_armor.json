@@ -3,7 +3,6 @@
     "values": [
         "firo:decoy",
         "firo:hyper_laser",
-        "firo:echo",
-        "firo:flame"
+        "firo:echo"
    ]
 }

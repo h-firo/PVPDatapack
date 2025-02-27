@@ -1,1 +1,0 @@
-function firo:game/rankset {score:killCount}

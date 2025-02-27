@@ -12,3 +12,4 @@ setworldspawn 46 -59 27
 worldborder center 0 0
 worldborder set 1000
 kill @e[type=armor_stand,tag=point_counter]
+scoreboard players set is game.isRandomRule 0
