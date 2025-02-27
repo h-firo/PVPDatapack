@@ -1,0 +1,1 @@
+$fill 69 -60 14 73 -60 18 $(color)_concrete

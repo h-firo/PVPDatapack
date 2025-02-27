@@ -11,6 +11,7 @@ scoreboard players set red satistics.winCount 0
 scoreboard players set blue satistics.winCount 0
 scoreboard players set green satistics.winCount 0
 scoreboard players set yellow satistics.winCount 0
+scoreboard players set @a training.isIn 1
 #ランダムなチーム分け
 function firo:game/random_team/assign_teams
 #スタートポイント付与

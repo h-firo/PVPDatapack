@@ -16,6 +16,7 @@ scoreboard objectives add point dummy
 #トレーニング関係
 scoreboard objectives add training.targetGiveDamage dummy
 scoreboard objectives add training.isWeaponSelect dummy
+scoreboard objectives add training.isIn dummy
 
 #買い物関係
 scoreboard objectives add shop.needPoint dummy

@@ -10,10 +10,9 @@ title @s actionbar ["所有ポイント...",\
 execute if score mode game.flag matches 1 run \
 function firo:game/effect/start_count
 
-execute if score mode game.flag matches 2 if score rule game.settings matches 0 as @a run \
+execute as @a[scores={training.isIn=1}] run \
 function firo:game/items/concrete/tick
-execute if score mode game.flag matches 2 if score rule game.settings matches 1 as @a run \
-function firo:game/area/tick
+execute if entity @a[scores={training.isIn=1}] run function firo:game/area/tick
 
 execute as @a[scores={respawn.timer=1..}] run \
 function firo:game/respawn/tick

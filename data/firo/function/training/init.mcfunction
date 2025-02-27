@@ -23,3 +23,23 @@ setblock 73 -58 35 dark_oak_wall_sign[facing=north]\
 {front_text:{messages:['{"text":""}',\
 '{"text":"アイテム選択ルームへ","color":"gold",\
 "clickEvent":{"action":"run_command","value":"/function firo:training/weaponselect_teleport"}}','{"text":""}','{"text":""}']}} replace
+setblock 61 -58 33 dark_oak_wall_sign[facing=east]\
+{front_text:{messages:['{"text":""}',\
+'{"text":"Team Red","color":"red",\
+"clickEvent":{"action":"run_command","value":"/function firo:team_setting/setteam {team:0}"}}','{"text":""}','{"text":""}']}} replace
+setblock 61 -58 32 dark_oak_wall_sign[facing=east]\
+{front_text:{messages:['{"text":""}',\
+'{"text":"Team Blue","color":"blue",\
+"clickEvent":{"action":"run_command","value":"/function firo:team_setting/setteam {team:1}"}}','{"text":""}','{"text":""}']}} replace
+setblock 61 -58 31 dark_oak_wall_sign[facing=east]\
+{front_text:{messages:['{"text":""}',\
+'{"text":"Team Green","color":"green",\
+"clickEvent":{"action":"run_command","value":"/function firo:team_setting/setteam {team:2}"}}','{"text":""}','{"text":""}']}} replace
+setblock 61 -58 30 dark_oak_wall_sign[facing=east]\
+{front_text:{messages:['{"text":""}',\
+'{"text":"Team Yellow","color":"yellow",\
+"clickEvent":{"action":"run_command","value":"/function firo:team_setting/setteam {team:3}"}}','{"text":""}','{"text":""}']}} replace
+setblock 61 -58 29 dark_oak_wall_sign[facing=east]\
+{front_text:{messages:['{"text":""}',\
+'{"text":"Team Spectator","color":"gray",\
+"clickEvent":{"action":"run_command","value":"/function firo:team_setting/setteam {team:4}"}}','{"text":""}','{"text":""}']}} replace
