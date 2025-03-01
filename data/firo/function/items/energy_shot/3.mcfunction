@@ -5,6 +5,6 @@ snowball[custom_name='{"bold":true,"color":"gold","text":"エネルギー弾"}',
          lore=['"投げると着弾地点に大きな爆発を起こす"'],\
          enchantment_glint_override=true,\
          custom_data={isEnergyShot:true},\
-         custom_model_data=1] \
+         item_model=energy] \
 1
 scoreboard players set @s energy.flag 3

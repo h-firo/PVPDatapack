@@ -8,5 +8,5 @@ enchant.isItemPowerUp = @s enchant.isItemPowerUp
 scoreboard players set @a energy.timer 0
 scoreboard players set @s energy.charge 0
 scoreboard players set @s player.useItem 0
-attribute @n[type=player] generic.gravity base set 0.08
+attribute @n[type=player] gravity base set 0.08
 effect give @n[type=player] resistance 3 10 true

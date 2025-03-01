@@ -1,1 +1,1 @@
-give @s carrot_on_a_stick[custom_name='{"color":"blue","text":"DecoyRain"}',lore=['"右クリックで周囲にデコイ(ゾンビ)を召喚する。"'],custom_data={isDecoyRain:true},custom_model_data=5] 1
+give @s carrot_on_a_stick[custom_name='{"color":"blue","text":"DecoyRain"}',lore=['"右クリックで周囲にデコイ(ゾンビ)を召喚する。"'],custom_data={isDecoyRain:true},item_model=decoy] 1

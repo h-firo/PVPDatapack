@@ -1,1 +1,1 @@
-give @s carrot_on_a_stick[custom_name='{"color":"red","text":"Frame Nova"}',lore=['"周囲に炎の雨を降らせる。"'],custom_data={isFrameNova:true},custom_model_data=8] 1
+give @s carrot_on_a_stick[custom_name='{"color":"red","text":"Frame Nova"}',lore=['"周囲に炎の雨を降らせる。"'],custom_data={isFrameNova:true},item_model=flame_nova] 1

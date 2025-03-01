@@ -1,1 +1,1 @@
-give @s carrot_on_a_stick[custom_name='{"color":"aqua","text":"Earth Burn"}',lore=['"高く飛び上がり、勢いよく地面を叩きつける"'],custom_data={isEarthBurn:true},custom_model_data=1] 1
+give @s carrot_on_a_stick[custom_name='{"color":"aqua","text":"Earth Burn"}',lore=['"高く飛び上がり、勢いよく地面を叩きつける"'],custom_data={isEarthBurn:true},item_model=earthburn] 1

@@ -1,1 +1,0 @@
-give @s armor_stand[custom_name='{"color":"dark_green","text":"Trampoline"}',lore=['"設置すると高くジャンプできる。"'],custom_model_data=2,entity_data={id:"minecraft:armor_stand",Invulnerable:1b,Invisible:1b,Tags:["trampoline"]}] 1

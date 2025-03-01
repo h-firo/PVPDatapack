@@ -2,7 +2,7 @@
 scoreboard players set mode game.flag 1
 scoreboard players set ready game.flag 0
 effect clear @a
-execute as @a run attribute @s generic.gravity base set 0.08
+execute as @a run attribute @s gravity base set 0.08
 scoreboard players set @a player.isSelectReady 0
 scoreboard players set red bp_point 0
 scoreboard players set blue bp_point 0
@@ -31,7 +31,7 @@ bossbar set minecraft:time name "試合終了まで"
 execute store result bossbar minecraft:time max run scoreboard players get time game.settings
 bossbar set minecraft:time color red
 #属性設定
-execute as @a run attribute @s generic.step_height base set 0.6
+execute as @a run attribute @s step_height base set 0.6
 #カウント
 
 title @a times 0 100 0

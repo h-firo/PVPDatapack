@@ -6,7 +6,7 @@ execute if score @s rush.selectItem matches 1 run function firo:items/energy_pot
 execute if score @s rush.selectItem matches 2 run \
 item replace entity @s weapon.mainhand with carrot_on_a_stick[custom_name='{"color":"aqua","text":"Energy Shot"}',\
 lore=['"一定時間空中を浮遊し、エネルギーをためる"','"ためたエネルギーは、エネルギー弾となって、着弾時に爆発を起こす"'],\
-custom_data={isEnergyShot:true},custom_model_data=2]
+custom_data={isEnergyShot:true},item_model=energy_shot]
 execute if score @s rush.selectItem matches 2 run function firo:item_rush/give_rushitem {SelectItem:"エナジーショット"}
 #ミサイル
 execute if score @s rush.selectItem matches 3 run function firo:items/missile/give
