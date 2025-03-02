@@ -22,7 +22,8 @@ title @a clear
 execute if score stage game.settings matches 0 store result score stage game.settings run random value 1..5
 function firo:game/move_stage
 #動けなくする
-effect give @a slowness 7 255 true 
+effect give @a slowness 7 255 true
+attribute @s gravity base set 1
 #制限時間設定
 scoreboard players operation time game.timer = time game.settings
 scoreboard players set count game.timer 140
