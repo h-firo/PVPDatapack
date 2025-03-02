@@ -31,25 +31,25 @@
     "effects": {
       "minecraft:attributes": [
         {
-          "attribute": "minecraft:player.entity_interaction_range",
+          "attribute": "minecraft:entity_interaction_range",
           "id": "firo_enchantment.entity",
           "amount": 2,
           "operation": "add_value"
         },
         {
-          "attribute": "minecraft:player.block_interaction_range",
+          "attribute": "minecraft:block_interaction_range",
           "id": "firo_enchantment.block",
           "amount": 2,
           "operation": "add_value"
         },
         {
-          "attribute": "minecraft:generic.attack_speed",
+          "attribute": "minecraft:attack_speed",
           "id": "firo_enchantment.attack_speed2",
           "amount": -1,
           "operation": "add_value"
         },
         {
-          "attribute": "minecraft:generic.knockback_resistance",
+          "attribute": "minecraft:knockback_resistance",
           "id": "firo_enchantment.knockback_resistance2",
           "amount": 0.3,
           "operation": "add_value"

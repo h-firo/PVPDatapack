@@ -75,7 +75,7 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.water_movement_efficiency",
+                    "attribute": "minecraft:water_movement_efficiency",
                     "id": "minecraft:water_movement",
                     "amount": 1,
                     "operation": "add_value",

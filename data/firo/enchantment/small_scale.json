@@ -31,49 +31,49 @@
     "effects": {
       "minecraft:attributes": [
         {
-          "attribute": "minecraft:generic.scale",
+          "attribute": "minecraft:scale",
           "id": "firo_enchantment.scale",
           "amount": -0.4,
           "operation": "add_value"
         },
         {
-          "attribute": "minecraft:generic.attack_speed",
+          "attribute": "minecraft:attack_speed",
           "id":"firo_enchantment.attack_speed",
           "amount": 2,
           "operation": "add_value"
         },
         {
-          "attribute": "minecraft:generic.movement_speed",
+          "attribute": "minecraft:movement_speed",
           "id":"firo_enchantment.speed",
           "amount": -0.03,
           "operation": "add_value"
         },
         {
-          "attribute": "minecraft:generic.attack_damage",
+          "attribute": "minecraft:attack_damage",
           "id":"firo_enchantment.attack_damage",
           "amount": -2,
           "operation": "add_value"
         },
         {
-          "attribute": "minecraft:player.block_break_speed",
+          "attribute": "minecraft:block_break_speed",
           "id":"firo_enchantment.destroy_speed",
           "amount": -0.8,
           "operation": "add_value"
         },
         {
-          "attribute": "minecraft:generic.knockback_resistance",
+          "attribute": "minecraft:knockback_resistance",
           "id":"firo_enchantment.knockback_resistance",
           "amount": -0.3,
           "operation": "add_value"
         },
         {
-          "attribute": "minecraft:player.sneaking_speed",
+          "attribute": "minecraft:sneaking_speed",
           "id":"firo_enchantment.speed",
           "amount": -0.25,
           "operation": "add_value"
         },
         {
-          "attribute": "minecraft:player.entity_interaction_range",
+          "attribute": "minecraft:entity_interaction_range",
           "id":"firo_enchantment.speed",
           "amount": -1,
           "operation": "add_value"

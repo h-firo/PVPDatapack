@@ -19,7 +19,8 @@ execute if score @s rush.selectItem matches 6 run function firo:items/bad_potion
 #バリア
 execute if score @s rush.selectItem matches 7 run function firo:items/barrier/take_barrier
 #ハイパーレーザー
-execute if score @s rush.selectItem matches 8 run function firo:plus_items/hyper_laser/give
+execute if score @s rush.selectItem matches 8 unless items entity @s container.* carrot_on_a_stick[custom_data={isLaser:true}] run function firo:plus_items/hyper_laser/give
+execute if score @s rush.selectItem matches 8 if items entity @s container.* carrot_on_a_stick[custom_data={isLaser:true}] run function firo:exception {content:"ハイパーレーザーを二つ所有することはできません"}
 #デコイレイン
 execute if score @s rush.selectItem matches 9 run function firo:plus_items/decoyrain/setteam
 #ライトニングスピア

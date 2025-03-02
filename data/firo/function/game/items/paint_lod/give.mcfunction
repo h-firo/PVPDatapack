@@ -1,1 +1,1 @@
-give @s stick[custom_name='{"color":"gold","text":"Paint Lod"}',lore=['"手に持った状態でエリアの上を歩くと、"','"自分の下の色を染めることができる。"'],unbreakable={},custom_model_data=1,custom_data={isPaintLod:true}] 1
+give @s stick[custom_name='{"color":"gold","text":"Paint Lod"}',lore=['"手に持った状態でエリアの上を歩くと、"','"自分の下の色を染めることができる。"'],unbreakable={},item_model=paint_lod,custom_data={isPaintLod:true}] 1
