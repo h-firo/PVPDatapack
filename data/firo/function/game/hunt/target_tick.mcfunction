@@ -1,0 +1,1 @@
+execute if entity @a[distance=..1] run function firo:game/hunt/hunt

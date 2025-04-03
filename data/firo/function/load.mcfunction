@@ -42,13 +42,10 @@ scoreboard players set 2 game.num 2
 scoreboard players set 3 game.num 3
 scoreboard players set 4 game.num 4
 scoreboard players set 60 game.num 60
-scoreboard objectives add game.area.timer dummy
-scoreboard objectives add game.area.blockCount dummy
-scoreboard objectives add game.area.blockCount2 dummy
-scoreboard objectives add game.area.owner dummy
 scoreboard objectives add respawn.timer dummy
 scoreboard objectives add handicap.settings.start dummy
 scoreboard objectives add handicap.settings.death dummy
+scoreboard objectives add hunt.emeraldCount dummy
 
 #ブロック関係
 scoreboard objectives add block.timer dummy
@@ -108,6 +105,7 @@ scoreboard objectives add echo.is dummy
 scoreboard objectives add frameNova.is dummy
 scoreboard objectives add frameNova.timer dummy
 scoreboard objectives add frameNova.expandTimer dummy
+scoreboard objectives add huntItem.explosionTimer dummy
 
 #エンチャント関係
 scoreboard objectives add enchant.isItemPowerUp dummy
@@ -139,10 +137,6 @@ scoreboard objectives add rush.rushPoint dummy
 
 #ステージ関係
 scoreboard objectives add stage.colonyCount dummy
-#ステージごとのエリアの位置のstorage
-data merge storage stage.area: \
-{1:{1:{x1:35,y1:-60,z1:104,x2:45,y2:-60,z2:114}},\
- t:{1:{x1:68,y1:-60,z1:14,x2:72,y2:-60,z2:18},2:{x1:74,y1:-60,z1:14,x2:78,y2:-60,z2:18}}}
 
 #チームとチーム関連スコアボード
 team add red
@@ -168,5 +162,3 @@ scoreboard objectives add team.teamCount dummy
 
 bossbar add time "Limit"
 bossbar set time players @a
-bossbar add area_blocks "ブロック数"
-bossbar set area_blocks players @a

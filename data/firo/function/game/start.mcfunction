@@ -22,9 +22,6 @@ tellraw @a ["",{"text":"\u5168\u54e1\u306b"},\
             {"score":{"name":"sp","objective":"game.settings"}},\
             {"text":"pt\u4ed8\u4e0e\u3055\u308c\u307e\u3057\u305f"}]
 execute if score rule game.settings matches 0 as @a run function firo:game/items/pickaxe/give
-execute if score rule game.settings matches 1 as @a run function firo:game/items/paint_lod/give
-execute unless score rule game.settings matches 1 run bossbar set area_blocks visible false
-execute if score rule game.settings matches 1 run bossbar set area_blocks visible true
 #初期装備付与
 loot give @a loot firo:start_equip
 execute as @a run function firo:game/give_food

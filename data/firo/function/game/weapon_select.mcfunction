@@ -1,4 +1,6 @@
 effect give @a night_vision infinite 1 true
+effect give @a instant_health 1 10 true
+effect give @a saturation 10 255 true
 execute as @a unless score @s player.team matches 4 run gamemode adventure @s
 gamemode spectator @a[scores={player.team=4}]
 scoreboard players set @s respawn.timer 0

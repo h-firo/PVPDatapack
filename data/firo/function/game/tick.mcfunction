@@ -12,7 +12,6 @@ function firo:game/effect/start_count
 
 execute as @a[scores={training.isIn=1}] run \
 function firo:game/items/concrete/tick
-execute if entity @a[scores={training.isIn=1}] run function firo:game/area/tick
 
 execute as @a[scores={respawn.timer=1..}] run \
 function firo:game/respawn/tick

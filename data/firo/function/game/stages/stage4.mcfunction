@@ -1,6 +1,4 @@
-execute unless score rule game.settings matches 1 run place template stage4-2-n 31 -61 176
-execute if score rule game.settings matches 1 run place template stage4-2-a 31 -61 176
-execute if score rule game.settings matches 1 run bossbar set area_blocks max 196
+place template stage4-2-n 31 -61 176
 place template stage4-1-n 17 -60 161
 place template stage4-3-n 31 -60 161
 execute if score rule game.settings matches 0 run function firo:game/stages/colony/stage4

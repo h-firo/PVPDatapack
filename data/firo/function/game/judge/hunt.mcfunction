@@ -1,5 +1,12 @@
+#エメラルドの数をカウント
+execute as @a store result score @s hunt.emeraldCount run clear @s emerald_block 0
+execute as @a[scores={player.team=0}] run scoreboard players operation red hunt.emeraldCount += @s hunt.emeraldCount
+execute as @a[scores={player.team=1}] run scoreboard players operation blue hunt.emeraldCount += @s hunt.emeraldCount
+execute as @a[scores={player.team=2}] run scoreboard players operation green hunt.emeraldCount += @s hunt.emeraldCount
+execute as @a[scores={player.team=3}] run scoreboard players operation yellow hunt.emeraldCount += @s hunt.emeraldCount
+
 #順位を決める
-function firo:game/ranksets/area
+function firo:game/ranksets/hunt
 
 execute as @e[type=armor_stand,tag=point_counter] if score @s satistics.rank matches 1 run \
 function firo:game/end/winner_show

@@ -2,7 +2,7 @@ function firo:sign/clear
 setblock 48 -59 38 oak_sign[rotation=8]\
 {front_text:{messages:['{"text":""}','{"text":"Colony","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function firo:sign/battle_rule/colony"}}','{"text":""}','{"text":""}']}} destroy
 setblock 47 -59 38 oak_sign[rotation=8]\
-{front_text:{messages:['{"text":""}','{"text":"Area","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function firo:sign/battle_rule/area"}}','{"text":""}','{"text":""}']}} destroy
+{front_text:{messages:['{"text":""}','{"text":"Hunt","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function firo:sign/battle_rule/hunt"}}','{"text":""}','{"text":""}']}} destroy
 setblock 46 -59 38 oak_sign[rotation=8]\
 {front_text:{messages:['{"text":""}','{"text":"Collection","color":"dark_gray","bold":true,"clickEvent":{"action":"run_command","value":"/function firo:sign/battle_rule/collection"}}','{"text":""}','{"text":""}']}} destroy
 setblock 45 -59 38 oak_sign[rotation=8]\
