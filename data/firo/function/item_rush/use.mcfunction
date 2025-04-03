@@ -28,5 +28,13 @@ execute if score @s rush.selectItem matches 10 run function firo:plus_items/ligh
 #エコーバースト
 execute if score @s rush.selectItem matches 11 run function firo:plus_items/echo_burst/burst
 
+#メッセージ
+execute unless score @s rush.selectItem matches 0 \
+        unless score @s rush.selectItem matches 2 \
+        unless score @s rush.selectItem matches 7 \
+        unless score @s rush.selectItem matches 9 \
+        unless score @s rush.selectItem matches 10 \
+        unless score @s rush.selectItem matches 11 run tellraw @s {"text":"指定したアイテムがインベントリに追加されました！","color": "red"}
+
 scoreboard players set @s rush.canAddPoint 1
 scoreboard players set @s rush.rushPoint 0

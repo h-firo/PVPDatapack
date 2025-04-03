@@ -5,7 +5,7 @@ setblock 24 -57 0 birch_wall_sign[facing=west]{front_text:{color:"orange",messag
 "clickEvent":{"action":"run_command","value":"/function firo:item_rush/set_rashitem {Select:1,Need:25}"}}','"25rpt"','{"text":""}']}} \
 replace
 setblock 24 -57 1 birch_wall_sign[facing=west]{front_text:{color:"brown",messages:['{"text":""}','{"text":"エナジーショット","bold":true,\
-"clickEvent":{"action":"run_command","value":"/function firo:item_rush/set_rashitem {Select:2,Need:32}"}}','"32rpt"','{"text":""}']}} \
+"clickEvent":{"action":"run_command","value":"/function firo:item_rush/set_rashitem {Select:2,Need:40}"}}','"40rpt"','{"text":""}']}} \
 replace
 setblock 24 -57 2 birch_wall_sign[facing=west]{front_text:{color:"red",messages:['{"text":""}','{"text":"ミサイル","bold":true,\
 "clickEvent":{"action":"run_command","value":"/function firo:item_rush/set_rashitem {Select:3,Need:20}"}}','"20rpt"','{"text":""}']}} \

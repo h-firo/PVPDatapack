@@ -1,3 +1,4 @@
+function firo:clearentity
 effect give @a night_vision infinite 1 true
 effect give @a instant_health 1 10 true
 effect give @a saturation 10 255 true
@@ -39,3 +40,17 @@ execute as @a unless score @s player.team matches 4 run \
 tellraw @s ["",{"text":"\u30a2\u30a4\u30c6\u30e0\u9078\u629e\u304c\u5b8c\u4e86\u3057\u305f\u3089"},\
             {"text":"\u300c\u3053\u3053\u300d","bold":true,"color":"blue","clickEvent":{"action":"run_command","value":"/function firo:game/select_ready"}},\
             {"text":"\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\uff01\uff01"}]
+
+#ボスバトルモードの場合、ボスを決める
+execute if score game_mode game.settings matches 0 run return fail
+tag @a remove boss
+execute as @a run attribute @s movement_speed modifier remove boss_speed
+execute as @a run attribute @s attack_damage modifier remove boss_damage
+execute as @a run attribute @s max_health modifier remove boss_health
+tag @r add boss
+tellraw @a [{"selector": "@a[tag=boss]","color": "gold"},{"text": "がボスになりました！","color": "white"}]
+attribute @p[tag=boss] movement_speed modifier add boss_speed 0.17 add_value
+attribute @p[tag=boss] attack_damage modifier add boss_damage 3 add_value
+attribute @p[tag=boss] max_health modifier add boss_health 20 add_value
+clear @a #firo:special_items
+scoreboard players operation @p[tag=boss] point += wp game.settings

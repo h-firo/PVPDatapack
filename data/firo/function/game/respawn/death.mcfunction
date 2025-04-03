@@ -4,6 +4,7 @@ execute if score @s energyPotion.timer matches 1.. run scoreboard players operat
 execute if score @s enchant.isGrudge matches 1 as @a[scores={isKill=1..}] run function firo:game/respawn/take_grudge
 scoreboard players set @a[scores={isKill=1..}] isKill 0
 advancement revoke @s only firo:death
+advancement revoke @s only firo:fall
 execute if score rule game.settings matches 2 run clear @s gold_nugget[custom_data={isCI:true}]
 gamemode spectator @s
 title @s times 0 60 0

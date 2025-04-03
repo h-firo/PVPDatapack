@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+      "minecraft:carrot_on_a_stick",
+      "minecraft:armor_stand",
+      "minecraft:potion",
+      "minecraft:splash_potion"
+    ]
+}
