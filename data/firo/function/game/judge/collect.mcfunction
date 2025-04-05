@@ -1,8 +1,10 @@
 #順位を決める
 function firo:game/ranksets/collect_count
 
-execute as @e[type=armor_stand,tag=point_counter] if score @s satistics.rank matches 1 run \
+execute as @e[type=armor_stand,tag=point_counter] if score @s satistics.rank matches 1 if score mode game.settings matches 0 run \
 function firo:game/end/winner_show
+execute as @e[type=armor_stand,tag=point_counter] if score @s satistics.rank matches 1 if score mode game.settings matches 1 run \
+function firo:game/end/winner_show_bossbattle
 execute as @e[type=armor_stand,tag=point_counter] if score @s satistics.rank matches 2 run \
 function firo:game/end/second
 execute as @e[type=armor_stand,tag=point_counter] if score @s satistics.rank matches 3 run \

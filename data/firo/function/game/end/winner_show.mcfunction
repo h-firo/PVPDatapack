@@ -1,16 +1,17 @@
 #勝者表示
 execute if entity @s[tag=red] run \
 tellraw @a ["",{"text":"Red Team","color":"red"},\
-            {"text":"\u304c\u52dd\u5229\u3057\u307e\u3057\u305f\uff01\uff01"}]
+            {"text":"\u304c\u52dd\u5229\u3057\u307e\u3057\u305f\uff01\uff01["},{"selector": "@a[scores={player.team=0}]"},{"text": "]"}]
 execute if entity @s[tag=blue] run \
 tellraw @a ["",{"text":"Blue Team","color":"blue"},\
-            {"text":"\u304c\u52dd\u5229\u3057\u307e\u3057\u305f\uff01\uff01"}]
+            {"text":"\u304c\u52dd\u5229\u3057\u307e\u3057\u305f\uff01\uff01["},{"selector": "@a[scores={player.team=1}]"},{"text": "]"}]
 execute if entity @s[tag=yellow] run \
 tellraw @a ["",{"text":"Yellow Team","color":"yellow"},\
-            {"text":"\u304c\u52dd\u5229\u3057\u307e\u3057\u305f\uff01\uff01"}]
+            {"text":"\u304c\u52dd\u5229\u3057\u307e\u3057\u305f\uff01\uff01["},{"selector": "@a[scores={player.team=2}]"},{"text": "]"}]
 execute if entity @s[tag=green] run \
 tellraw @a ["",{"text":"Green Team","color":"green"},\
-            {"text":"\u304c\u52dd\u5229\u3057\u307e\u3057\u305f\uff01\uff01"}]
+            {"text":"\u304c\u52dd\u5229\u3057\u307e\u3057\u305f\uff01\uff01["},{"selector": "@a[scores={player.team=3}]"},{"text": "]"}]
+scoreboard players set @e[type=armor_stand,tag=red,scores={satistics.rank=0}] satistics.rank 4
 #一覧表示
 tellraw @a ["",{"text":"--\u30d0\u30c8\u30eb\u7d50\u679c-------\n"},\
             {"text":"Red Team","color":"red"},{"text":"...#"},\

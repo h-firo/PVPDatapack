@@ -6,6 +6,7 @@ execute as @a unless score @s player.team matches 4 run gamemode adventure @s
 gamemode spectator @a[scores={player.team=4}]
 scoreboard players set @s respawn.timer 0
 clear @a gold_nugget[custom_data={isCI:true}]
+clear @a #firo:concreat_blocks
 scoreboard players set count cs.item.count 0
 tp @a 23 -59 26
 playsound entity.experience_orb.pickup block @a
@@ -41,6 +42,7 @@ tellraw @s ["",{"text":"\u30a2\u30a4\u30c6\u30e0\u9078\u629e\u304c\u5b8c\u4e86\u
             {"text":"\u300c\u3053\u3053\u300d","bold":true,"color":"blue","clickEvent":{"action":"run_command","value":"/function firo:game/select_ready"}},\
             {"text":"\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\uff01\uff01"}]
 
+
 #ボスバトルモードの場合、ボスを決める
 execute if score game_mode game.settings matches 0 run return fail
 tag @a remove boss
@@ -53,4 +55,7 @@ attribute @p[tag=boss] movement_speed modifier add boss_speed 0.17 add_value
 attribute @p[tag=boss] attack_damage modifier add boss_damage 3 add_value
 attribute @p[tag=boss] max_health modifier add boss_health 20 add_value
 clear @a #firo:special_items
+tellraw @p[tag=boss] [{"score":{"name": "wp","objective": "game.settings"},"color": "red"},{"text": "ptを獲得しました","color": "red"}]
 scoreboard players operation @p[tag=boss] point += wp game.settings
+scoreboard players set @a player.team 1
+scoreboard players set @p[tag=boss] player.team 0

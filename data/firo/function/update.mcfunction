@@ -10,7 +10,7 @@ execute if entity @e[type=armor_stand,tag=collectSpot] at @e[type=armor_stand,ta
 execute if entity @e[type=armor_stand,tag=goldSummon,tag=!gst] run function firo:collect_spot/collect_item/tick_summon
 execute if score mode game.flag matches 2 if score rule game.settings matches 1 run function firo:game/hunt/tick
 kill @e[type=experience_orb]
-execute as @a[tag=!operator] unless score @s player.team matches 4 unless entity @s[gamemode=adventure] run gamemode adventure @s
+execute as @a[tag=!operator] unless score @s player.team matches 4 unless entity @s[gamemode=adventure] unless entity @s[gamemode=spectator] run gamemode adventure @s
 effect give @a night_vision infinite 1 true
 
 #タイマー処理

@@ -1,4 +1,5 @@
 scoreboard players remove @s respawn.timer 1
+gamemode spectator @s
 scoreboard players set @s isDeath 0
 title @s actionbar [{"color":"white","text":"復活まで..."},\
                     {"color":"white","score":{"name":"@s","objective":"respawn.timer"}}]
